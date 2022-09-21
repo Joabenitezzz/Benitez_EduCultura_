@@ -1,0 +1,45 @@
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: absolute;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 2%;
+
+    .box_footer {
+        display: flex;
+        padding: 0 3%;
+
+        a {
+            color: white;
+        }
+
+        .contacto {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+.redes {
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        margin: 7%;
+    }
+
+    a {
+        color: white;
+    }
+}

@@ -1,0 +1,38 @@
+header {
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    padding: 3%;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteiner_logo_mobile {
+    display: none;
+}
+
+.nav_link {
+    color: white;
+    font-weight: bold;
+
+    &:focus,
+    &:hover {
+        color: $color-principal;
+    }
+}
+
+.dropdown_link {
+    color: white;
+}
+
+.dropdown_ {
+    border-radius: 0;
+    background-color: black;
+}
